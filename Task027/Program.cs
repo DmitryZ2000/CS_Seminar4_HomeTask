@@ -7,7 +7,8 @@ void DigitalSum(int num)
     int rezult = 0;
     while (num > 0)
     {
-        rezult = rezult + (num % 10);
+        // rezult = rezult + num % 10;
+        rezult += num % 10; // Cокращенный вариант строчки выше.
         num = num / 10;
     }
     Console.WriteLine($"Сумма чмсел числа  = {rezult}.");

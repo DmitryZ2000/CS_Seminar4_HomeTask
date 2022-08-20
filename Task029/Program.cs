@@ -21,6 +21,6 @@ void PrintArray(int[] arr)
 }
 
 Console.Write("Введите любое целое число - длину массива: ");
-int arr_length = Convert.ToInt32(Console.ReadLine());
-int[] myarray = ArrayCreation(arr_length);
+int arrLength = Convert.ToInt32(Console.ReadLine());
+int[] myarray = ArrayCreation(arrLength);
 PrintArray(myarray);
